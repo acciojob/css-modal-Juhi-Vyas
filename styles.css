@@ -1,12 +1,11 @@
 .modal{
 	padding: 40px;
-	
+	display: none;
 }
 .modal-content{
 	/* margin-top: 15%; */
 	background-color: white;
 	padding: 8px;
-	display: none;
 }
 .modal-header{
 	background-color: lightgreen;
