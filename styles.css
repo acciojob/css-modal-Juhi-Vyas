@@ -7,13 +7,16 @@ body {
 	padding: 2px;
 	cursor: pointer;
 }
-.modal{
-	display: none;
-	background-color: rgba(0, 0, 0, 0.45);
-	align-items: center;
-	justify-content: center;
-	width: 100vw;
-	height: 100vh;
+.modal {
+  display: none;
+  position: fixed;        
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  align-items: center;
+  justify-content: center;
 }
 .modal.active{
 	display: block;
