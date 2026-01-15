@@ -1,8 +1,8 @@
 .modal{
-	background-color: gray;
+	background-color: black;
 	padding: 8px;
 	height: 100vh;
-	display:none;
+	display: none;
 }
 .modal-content{
 	margin-top: 20%;

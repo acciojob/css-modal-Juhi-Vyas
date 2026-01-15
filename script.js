@@ -1,7 +1,10 @@
-let modal = document.getElementById("modal")
-let btn1 = document.getElementById("openModal")
-let btn2 = document.getElementById("close-modal")
+let openBtn = document.getElementById("openModal")
+let modal = document.querySelector(".modal")
+let closeBtn = document.querySelector(".close-modal")
 
-btn1.addEventListener("click", () => {
-	
+openBtn.addEventListener("click", () => {
+	modal.style.display = "block"
+})
+closeBtn.addEventListener("click", () => {
+	modal.style.display = "none"
 })
