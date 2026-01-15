@@ -16,7 +16,7 @@ body {
 	height: 100vh;
 }
 .modal.active{
-	display: flex;
+	display: block;
 }
 .modal-content{
 	background-color: #fff;
