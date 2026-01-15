@@ -2,30 +2,30 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Overlay */
 .modal {
   display: none;
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.45);
-  align-items: center;
-  justify-content: center;
 }
 
-/* Active state */
 .modal.active {
-  display: flex;
+  display: block;   /* ✅ MUST be block */
 }
 
-/* Modal box */
+/* Center modal WITHOUT flex */
 .modal-content {
   width: 75%;
   background: #fff;
   border: 4px solid #eee;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Header */
 .modal-header {
   background-color: #4CAF50;
   color: white;
@@ -35,7 +35,6 @@ body {
   align-items: center;
 }
 
-/* Close button */
 .close-modal {
   background: none;
   border: none;
@@ -43,7 +42,6 @@ body {
   cursor: pointer;
 }
 
-/* Body */
 .modal-body {
   padding: 12px 15px;
 }
