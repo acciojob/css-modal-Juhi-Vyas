@@ -1,4 +1,5 @@
 .modal{
+	background-color: lightgray;
 	padding: 40px;
 	display: none;
 }
