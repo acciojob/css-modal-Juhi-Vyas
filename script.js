@@ -3,16 +3,16 @@ let modal = document.querySelector(".modal")
 let closeBtn = document.querySelector(".close-modal")
 
 openBtn.addEventListener("click", () => {
-  modal.style.display = "flex"
+  modal.classList.add("active")
 })
 
 closeBtn.addEventListener("click", () => {
-  modal.style.display = "none"
+  modal.classList.remove("active")
 })
 
 modal.addEventListener("click", (e) => {
 	if(e.target === modal){
-		modal.style.display = "none"
+		modal.classList.remove("active")
 	}
 })
 

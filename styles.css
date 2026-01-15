@@ -15,6 +15,9 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
+.modal.active{
+	display: flex;
+}
 .modal-content{
 	background-color: #fff;
 	width: 75%;
