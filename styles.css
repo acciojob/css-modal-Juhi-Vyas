@@ -1,13 +1,12 @@
 .modal{
-	background-color: black;
-	padding: 8px;
-	height: 100vh;
-	display: none;
+	padding: 40px;
+	
 }
 .modal-content{
-	margin-top: 20%;
+	/* margin-top: 15%; */
 	background-color: white;
 	padding: 8px;
+	display: none;
 }
 .modal-header{
 	background-color: lightgreen;
