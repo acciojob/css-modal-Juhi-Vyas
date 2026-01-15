@@ -1,50 +1,49 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
 }
-#openModal{
-	margin: 15px;
-	padding: 2px;
-	cursor: pointer;
-}
+
+/* Overlay */
 .modal {
   display: none;
-  position: fixed;        
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  position: fixed;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.45);
   align-items: center;
   justify-content: center;
 }
-.modal.active{
-	display: block;
+
+/* Active state */
+.modal.active {
+  display: flex;
 }
-.modal-content{
-	background-color: #fff;
-	width: 75%;
-	border: 4px solid #eee;
-	box-shadow: 0 4px 10px rgba(0,0,0,0.4)
+
+/* Modal box */
+.modal-content {
+  width: 75%;
+  background: #fff;
+  border: 4px solid #eee;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-.modal-header{
-	background-color: #4CAF50;
-	color: white;
-	padding: 10px 15px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+
+/* Header */
+.modal-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.close-modal{
-	background: none;
-	border: none;
-	font-size: 18px;
-	cursor: pointer;
+
+/* Close button */
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
 }
-.modal-body{
-	padding: 12px 15px;
-	color: #333;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+
+/* Body */
+.modal-body {
+  padding: 12px 15px;
 }

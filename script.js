@@ -1,20 +1,20 @@
-let openBtn = document.getElementById("openModal")
-let modal = document.querySelector(".modal")
-let closeBtn = document.querySelector(".close-modal")
+const openBtn = document.getElementById("openModal");
+const modal = document.querySelector(".modal");
+const closeBtn = document.querySelector(".close-modal");
 
+// Open modal
 openBtn.addEventListener("click", () => {
-  modal.classList.add("active")
-})
+  modal.classList.add("active");
+});
 
+// Close via button
 closeBtn.addEventListener("click", () => {
-  modal.classList.remove("active")
-})
+  modal.classList.remove("active");
+});
 
+// Close on outside click
 modal.addEventListener("click", (e) => {
-	if(e.target === modal){
-		modal.classList.remove("active")
-	}
-})
-
-
-
+  if (e.target === modal) {
+    modal.classList.remove("active");
+  }
+});
