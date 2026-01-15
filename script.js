@@ -3,7 +3,7 @@ let modal = document.querySelector(".modal")
 let closeBtn = document.querySelector(".close-modal")
 
 openBtn.addEventListener("click", () => {
-  modal.style.display = "flex"
+  modal.style.display = "block"
 })
 
 closeBtn.addEventListener("click", () => {
