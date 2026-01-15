@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+.modal{
+	background-color: gray;
+	padding: 8px;
+	height: 100vh;
+	display:none;
+}
+.modal-content{
+	margin-top: 20%;
+	background-color: white;
+	padding: 8px;
+}
+.modal-header{
+	background-color: lightgreen;
+	padding: 2px;
+}
+.modal-header h2{
+	padding: 5px;
+}
+.modal-body{
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+}
